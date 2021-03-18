@@ -53,6 +53,7 @@ class LivewireDatatable extends Component
     public $selected = [];
     public $beforeTableSlot;
     public $afterTableSlot;
+    public $empty_table_message;
 
     protected $query;
     protected $listeners = ['refreshLivewireDatatable'];

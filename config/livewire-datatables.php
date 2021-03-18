@@ -6,4 +6,5 @@ return [
     'suppress_search_highlights' => false, // When searching, don't highlight matching search results when set to true
     'per_page_options' => [10, 25, 50, 100],
     'default_per_page' => 10,
+    'default_empty_table_message' => "There's nothing to show at the moment",
 ];

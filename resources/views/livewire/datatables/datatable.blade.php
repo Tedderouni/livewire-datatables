@@ -124,7 +124,7 @@
                         </div>
                     @empty
                         <p class="p-3 text-lg text-teal-600">
-                            {{ __("There's Nothing to show at the moment") }}
+                            {{ $this->empty_table_message ?? config('livewire-datatables.default_empty_table_message', __("There's nothing to show at the moment")) }}
                         </p>
                     @endforelse
                 </div>
